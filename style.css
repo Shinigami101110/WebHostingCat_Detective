@@ -146,6 +146,11 @@ issue.
     pointer-events: none;
 }
 
+
+#skills {
+    white-space: pre-line;
+} 
+
 @keyframes barberpole {
     100% {
         background-position: 100% 100%;
