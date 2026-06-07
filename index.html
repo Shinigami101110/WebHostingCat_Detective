@@ -44,6 +44,21 @@
         </div>
     </a>
 
+    <!--Telegram chanal-->
+    <a href="https://t.me/cat_detective911" target="_blank">
+        <div class="about_entry">
+            <h3>Telegram chanal</h3>
+        </div>
+    </a>
+
+        <!--YouTube chanal-->
+    <a href="https://t.me/cat_detective911" target="_blank">
+        <div class="about_entry">
+            <h3>YouTube chanal</h3>
+        </div>
+    </a>
+
+
             </div>  
             <br>  
             <div class="border"></div> 
@@ -55,22 +70,21 @@
         var current_lang = getBrowserLang(),  
             beep = new Audio("beep.mp3"),  
             locale = {  
-                "RU": {  
-                    "title": "Я Shinigami",  
-                        "bio": "Мой Сайт",  
-                    "skills": "Переходник на GitHub",  
-                    "about": "Обо мне",  
-                    "contacts": "Заходи"  
-                },  
-                "EN": {  
-                    "title": "I am Shinigami",  
-                    "bio": "My Site",  
-                    "skills": "GitHub adapter",  
-                    "about": "About Me",  
-                    "contacts": "Come in"  
-                }  
-            };  
-  
+        RU: {
+        title: "Я Shinigami",
+        bio: "Мой Сайт",
+        skills: "Переходник на GitHub\nПереходник на Telegram канал\nПереходник на YouTube chanal",
+        about: "Обо мне",
+        contacts: "Заходи"
+    },
+        EN: {
+        title: "I am Shinigami",
+        bio: "My Site",
+        skills: "GitHub adapter\nTelegram channel adapter\nYouTube chanal adapter",
+        about: "About Me",
+        contacts: "Come in"
+    }
+                    };
         function sleep(ms) {  
             return new Promise(resolve => setTimeout(resolve, ms));  
         }  
